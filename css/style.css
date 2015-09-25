@@ -1531,6 +1531,7 @@ iframe {
 }
 .sponsors-row > * {
 	margin: 15px 20px;
+	display: inline-block;
 }
 
 /**
