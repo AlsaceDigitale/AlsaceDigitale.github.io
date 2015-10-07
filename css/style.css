@@ -2240,3 +2240,9 @@ body.enable-preloader.preloader-dark #jpreLoader {
 	margin-bottom: 20px;
 	text-align: center;
 }
+
+/* Twitter widget */
+.twitter-timeline {
+	margin: auto!important;
+	min-height: 500px!important;
+}
