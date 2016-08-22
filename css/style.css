@@ -615,13 +615,18 @@ iframe {
 /* BUTTON COLOR */
 .btn-default {
 	border: 1px solid rgba(0,0,0,0.1);
-	background-color: transparent;
 	color: inherit;
 }
 .btn-default:hover, .btn-default:focus {
 	background-color: transparent;
 	color: #222;
 	border-color: #222;
+}
+.btn-special {		
+	background: rgba(255,255,255,0.15)!important;
+}
+.btn-special:hover, .btn-special:focus {		
+	background: rgba(255,255,255,0.25)!important;
 }
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
