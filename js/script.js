@@ -199,7 +199,7 @@
 				responsive: true,
 				horizontalScrolling: false,
 				hideDistantElements: false,
-				verticalOffset: 0,
+				verticalOffset: -400,
 				horizontalOffset: 0,
 			});
 		};
@@ -391,6 +391,18 @@
 
 		$window.trigger( 'resize' );
 		$window.trigger( 'scroll' );
+
+		/* =======================================
+		 * Read more
+		 * =======================================
+		 */	
+		var read_more_content = null;
+		$('.read_more_content').hide();
+
+		$('.read_more_button').click(function(e) {
+			$(this).parent().find(".read_more_content").slideDown();
+			$(this).slideUp();
+		});
 
 	});
 

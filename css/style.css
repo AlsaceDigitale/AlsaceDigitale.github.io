@@ -2194,6 +2194,27 @@ iframe {
 
 /**
  * ========================================
+ * READ MORE
+ * ========================================
+ */
+ .read_more {
+ 	margin-top: -15px;
+ }
+ .read_more_button {
+ 	color: #dedede;
+ 	font-size: 16px;
+ 	text-decoration: underline;
+ }
+ .read_more_button:hover, .read_more_button:focus {
+ 	color: #eee;
+ 	font-size: 16px;
+ }
+ .read_more_content {
+ 	font-size: 18px;
+ }
+
+/**
+ * ========================================
  * PRELOADER
  * ========================================
  */
