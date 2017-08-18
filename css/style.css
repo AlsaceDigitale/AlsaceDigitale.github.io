@@ -805,7 +805,7 @@ iframe {
 .navbar-logo img {
 	display: inline-block;
 	vertical-align: middle;
-	width: 245px;
+	height: 50px;
 	/*max-height: 50px;*/
 }
 .navbar-toggle {
@@ -2272,3 +2272,6 @@ body.enable-preloader.preloader-dark #jpreLoader {
 	margin: auto!important;
 	min-height: 700px!important;
 }
+
+.blog-sticky-logo { display: block; position: fixed; bottom: 10px; right: 10px; z-index: 10; }
+.blog-sticky-logo img { width: 100px; }
