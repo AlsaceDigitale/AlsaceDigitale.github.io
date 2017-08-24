@@ -2267,6 +2267,14 @@ body.enable-preloader.preloader-dark #jpreLoader {
 	text-align: center;
 }
 
+.newsbox .btn-default {
+	color: #111;
+}
+
+.newsbox .btn-default:hover, .newsbox .btn-default:focus, .newsbox .btn-default:active {
+	color: #fff;
+}
+
 /* Twitter widget */
 .twitter-timeline {
 	margin: auto!important;
