@@ -1940,16 +1940,32 @@ iframe {
 	background-color: #222;
 	background-color: rgba(34,34,34,0.9);
 }
+.contact-maps-section {
+	height: 500px;
+}
 .contact-maps-section .section-background-maps {
 	z-index: 1;
+	background-size: 100% auto;
+	position: center center;
 }
 .contact-maps-section .container {
 	position: static;
+	margin-top: 50px;
+}
+@media ( max-width: 1400px ) {
+	.contact-maps-section .section-background-maps {
+		background-size: auto 100%;
+	}
 }
 @media ( max-width: 991px ) {
+	.contact-maps-section {
+		height: auto;
+	}
+	.contact-maps-section .section-background-maps {
+		background: none!important;
+	}
 	.contact-maps-section .section-background {
 		position: relative;
-		padding-top: 62.5%;
 		margin-top: -90px;
 		overflow: hidden;
 	}
