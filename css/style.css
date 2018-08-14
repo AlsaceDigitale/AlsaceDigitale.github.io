@@ -890,6 +890,12 @@ iframe {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+	.header-section.floating .navbar-nav .dropdown-language {
+		margin-top: 0px;
+	}
+	.header-section.floating .navbar-nav .language-choice {
+		padding-top: 18px;
+	}
 	.header-section.floating .navbar-nav > li.header-action-button {
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -988,6 +994,11 @@ iframe {
 	}
 	.dropdown-menu > li > a {
 		padding: 15px 15px !important;
+	}
+	.dropdown-language {
+		position: relative;
+	    width: 100%;
+	    margin-top: 30px!important;
 	}
 }
 
@@ -1200,6 +1211,17 @@ iframe {
 .hero-features .lead {
 	font-size: 19px;
 }
+
+.language-choice {
+    color: white;
+    padding-top: 26px;
+    display: inline-block;
+}
+.dropdown-language {
+	min-width: 80px;
+	margin-top: -30px;
+}
+
 @media ( min-width: 992px ) {
 	.hero-features-right {
 		padding-left: 50px;
