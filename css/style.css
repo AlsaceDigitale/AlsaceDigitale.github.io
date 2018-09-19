@@ -2315,6 +2315,11 @@ body.enable-preloader.preloader-dark #jpreLoader {
 	color: #111;
 }
 
+.newsbox .btn {
+	white-space: pre-wrap;
+	margin-bottom: 2px;
+}
+
 .newsbox .btn-default:hover, .newsbox .btn-default:focus, .newsbox .btn-default:active {
 	color: #fff;
 }
@@ -2327,3 +2332,15 @@ body.enable-preloader.preloader-dark #jpreLoader {
 
 .blog-sticky-logo { display: block; position: fixed; bottom: 10px; right: 10px; z-index: 10; }
 .blog-sticky-logo img { width: 100px; }
+
+
+.webinars {
+	margin-top: -10px;
+}
+.webinars a.btn {
+	white-space: pre-wrap;
+	height: 80px;
+}
+.webinars a.btn span {
+	font-size: 10px;
+}
