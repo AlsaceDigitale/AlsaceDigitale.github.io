@@ -1,0 +1,16 @@
+{
+  "name": "www.hackingindustry.camp",
+  "version": "2020",
+  "description": "Hacking Industry Camp website",
+  "main": "index.js",
+  "repository": "git@github.com:AlsaceDigitale/www.hackingindustry.camp.git",
+  "author": "Alsace Digitale <contact@alsacedigitale.org>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "scripts": {
+    "serve": "yarn run browser-sync start --server --files \"*.*\""
+  }
+}
